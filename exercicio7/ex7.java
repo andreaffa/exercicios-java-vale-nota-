@@ -44,7 +44,7 @@ public class ex7 {
 
                 switch (escolha) {
                     case 1:
-                        System.out.print("informe o novo preço: ");
+                        System.out.print("informe o novo preco: ");
                         int novopreco = leitor.nextInt();
                         produto.atualizarPreco(novopreco);
                         break;
